@@ -7,7 +7,7 @@ public class Computer {
     //constructor
     public Computer(){
         String[] moves = {"Rock", "Paper", "Scissors"};
-        computerMove = "Rock";
+        computerMove = moves[new Random().nextInt(moves.length)];
     }
 
 
