@@ -7,11 +7,15 @@ public class Computer {
     //constructor
     public Computer(){
         String[] moves = {"Rock", "Paper", "Scissors"};
-        computerMove = moves[new Random().nextInt(moves.length)];
+        computerMove = "Rock";
     }
 
 
     public String getComputerMove(){
         return computerMove;
+    }
+
+    public void printComputerMove(){
+        System.out.println("Computer move: " + computerMove);
     }
 }
