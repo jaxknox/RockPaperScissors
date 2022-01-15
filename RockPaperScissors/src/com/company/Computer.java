@@ -14,4 +14,8 @@ public class Computer {
     public String getComputerMove(){
         return computerMove;
     }
+
+    public void printComputerMove(){
+        System.out.println("Computer move: " + computerMove);
+    }
 }
